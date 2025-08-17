@@ -3,9 +3,9 @@ Task 1: Exploring and Visualizing a Simple Dataset
 
 Objective:
 The goal of this task is to learn how to:
-    * Load a dataset
-    * Summarize its details
-    * Create simple visualizations to understand it better
+1. Load a dataset
+2. Summarize its details
+3. Create simple visualizations to understand it better
 
 We are using the **Iris dataset**, which has measurements of flower parts (sepal and petal) for three types of Iris flowers.
 
