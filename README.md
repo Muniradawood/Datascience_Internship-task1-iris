@@ -2,8 +2,10 @@
 Task 1: Exploring and Visualizing a Simple Dataset
 Objective:
 Understand how to read, summarize, and visualize a dataset.
+
 Dataset:
 Iris Dataset (CSV format, available through seaborn or other open sources)
+
 Instructions:
 ● Load the dataset using the pandas library.
 ● Display dataset structure using .shape, .columns, and .head().
