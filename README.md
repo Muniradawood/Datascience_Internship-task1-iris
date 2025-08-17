@@ -1,21 +1,31 @@
 # Datascience_Internship-task1-iris
 Task 1: Exploring and Visualizing a Simple Dataset
+
 Objective:
-Understand how to read, summarize, and visualize a dataset.
+The goal of this task is to learn how to:
+    * Load a dataset
+    * Summarize its details
+    * Create simple visualizations to understand it better
 
-Dataset:
-Iris Dataset (CSV format, available through seaborn or other open sources)
+We are using the **Iris dataset**, which has measurements of flower parts (sepal and petal) for three types of Iris flowers.
 
-Instructions:
-● Load the dataset using the pandas library.
-● Display dataset structure using .shape, .columns, and .head().
-● Create basic visualizations:
-    ○ Scatter plot to analyze relationships between variables.
-    ○ Histogram to examine data distribution.
-    ○ Box plot to detect outliers and spread of values.
-● Use matplotlib and seaborn for visualizations.
+🛠 Approach
+1. Load the dataset using pandas and seaborn.  
+2. Look at the data with shape, columns, and first few rows.  
+3. Check for missing values and basic statistics.  
+4. Make simple graphs:
+   * Scatter plot to see relationships between features  
+   * Histogram to see data distribution  
+   * Box plot to check outliers and compare species  
 
-Skills:
-● Data loading and inspection using pandas
-● Basic data summarization
-● Visualization using matplotlib and seaborn
+📊 Results and Insights
+* The dataset has 150 rows and 5 columns.  
+* There are no missing values.  
+* The Setosa species looks very different from the other two species in terms of petal and sepal sizes.  
+* Histograms show the natural spread of data for each measurement.  
+* Box plots show that Setosa flowers have much smaller petals compared to Versicolor and Virginica.  
+
+▶️ How to Run
+ Install the required libraries:
+  * bash
+  * pip install pandas seaborn matplotlib
