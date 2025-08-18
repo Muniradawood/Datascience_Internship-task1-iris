@@ -27,5 +27,4 @@ We are using the **Iris dataset**, which has measurements of flower parts (sepal
 
 ▶️ How to Run
  Install the required libraries:
-  ''' bash
   * pip install pandas seaborn matplotlib
